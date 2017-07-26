@@ -4,7 +4,7 @@
 <?php
 // Merged from custom/Extension/modules/shan_Teachers/Ext/Vardefs/shan_teachers_shan_students_shan_Teachers.php
 
-// created: 2017-07-26 12:04:43
+// created: 2017-07-26 15:33:12
 $dictionary["shan_Teachers"]["fields"]["shan_teachers_shan_students"] = array (
   'name' => 'shan_teachers_shan_students',
   'type' => 'link',

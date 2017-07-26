@@ -31,9 +31,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'University',
-  'published_date' => '2017-07-26 07:04:43',
+  'published_date' => '2017-07-26 10:33:12',
   'type' => 'module',
-  'version' => 1501052683,
+  'version' => 1501065192,
   'remove_tables' => 'prompt',
 );
 
@@ -77,6 +77,10 @@ $installdefs = array (
     0 => 
     array (
       'meta_data' => '<basepath>/SugarModules/relationships/relationships/shan_teachers_shan_studentsMetaData.php',
+    ),
+    1 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/shan_students_shan_coursesMetaData.php',
     ),
   ),
   'image_dir' => '<basepath>/icons',
@@ -534,6 +538,438 @@ $installdefs = array (
     ),
     72 => 
     array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'en_us',
+    ),
+    73 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'bg_BG',
+    ),
+    74 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'cs_CZ',
+    ),
+    75 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'da_DK',
+    ),
+    76 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'de_DE',
+    ),
+    77 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'el_EL',
+    ),
+    78 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'es_ES',
+    ),
+    79 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'fr_FR',
+    ),
+    80 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'he_IL',
+    ),
+    81 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'hu_HU',
+    ),
+    82 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'it_it',
+    ),
+    83 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'lt_LT',
+    ),
+    84 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'ja_JP',
+    ),
+    85 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'ko_KR',
+    ),
+    86 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'lv_LV',
+    ),
+    87 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'nb_NO',
+    ),
+    88 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'nl_NL',
+    ),
+    89 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'pl_PL',
+    ),
+    90 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'pt_PT',
+    ),
+    91 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'ro_RO',
+    ),
+    92 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'ru_RU',
+    ),
+    93 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'sv_SE',
+    ),
+    94 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'tr_TR',
+    ),
+    95 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'zh_TW',
+    ),
+    96 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'zh_CN',
+    ),
+    97 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'pt_BR',
+    ),
+    98 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'ca_ES',
+    ),
+    99 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'en_UK',
+    ),
+    100 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'sr_RS',
+    ),
+    101 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'sk_SK',
+    ),
+    102 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'sq_AL',
+    ),
+    103 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'et_EE',
+    ),
+    104 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'es_LA',
+    ),
+    105 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'fi_FI',
+    ),
+    106 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'ar_SA',
+    ),
+    107 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Courses.php',
+      'to_module' => 'shan_Courses',
+      'language' => 'uk_UA',
+    ),
+    108 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'en_us',
+    ),
+    109 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'bg_BG',
+    ),
+    110 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'cs_CZ',
+    ),
+    111 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'da_DK',
+    ),
+    112 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'de_DE',
+    ),
+    113 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'el_EL',
+    ),
+    114 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'es_ES',
+    ),
+    115 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'fr_FR',
+    ),
+    116 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'he_IL',
+    ),
+    117 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'hu_HU',
+    ),
+    118 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'it_it',
+    ),
+    119 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'lt_LT',
+    ),
+    120 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'ja_JP',
+    ),
+    121 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'ko_KR',
+    ),
+    122 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'lv_LV',
+    ),
+    123 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'nb_NO',
+    ),
+    124 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'nl_NL',
+    ),
+    125 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'pl_PL',
+    ),
+    126 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'pt_PT',
+    ),
+    127 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'ro_RO',
+    ),
+    128 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'ru_RU',
+    ),
+    129 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'sv_SE',
+    ),
+    130 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'tr_TR',
+    ),
+    131 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'zh_TW',
+    ),
+    132 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'zh_CN',
+    ),
+    133 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'pt_BR',
+    ),
+    134 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'ca_ES',
+    ),
+    135 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'en_UK',
+    ),
+    136 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'sr_RS',
+    ),
+    137 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'sk_SK',
+    ),
+    138 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'sq_AL',
+    ),
+    139 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'et_EE',
+    ),
+    140 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'es_LA',
+    ),
+    141 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'fi_FI',
+    ),
+    142 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'ar_SA',
+    ),
+    143 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/shan_Students.php',
+      'to_module' => 'shan_Students',
+      'language' => 'uk_UA',
+    ),
+    144 => 
+    array (
       'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
       'to_module' => 'application',
       'language' => 'en_us',
@@ -564,10 +1000,26 @@ $installdefs = array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/shan_teachers_shan_students_shan_Students.php',
       'to_module' => 'shan_Students',
     ),
+    2 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/shan_students_shan_courses_shan_Courses.php',
+      'to_module' => 'shan_Courses',
+    ),
+    3 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/shan_students_shan_courses_shan_Students.php',
+      'to_module' => 'shan_Students',
+    ),
   ),
   'layoutfields' => 
   array (
     0 => 
+    array (
+      'additional_fields' => 
+      array (
+      ),
+    ),
+    1 => 
     array (
       'additional_fields' => 
       array (
