@@ -1,0 +1,35 @@
+<?php
+// created: 2017-07-26 17:45:13
+$viewdefs['shan_Students']['base']['view']['subpanel-for-shan_teachers-shan_teachers_shan_students'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'label' => 'LBL_NAME',
+          'enabled' => true,
+          'default' => true,
+          'name' => 'name',
+          'link' => true,
+        ),
+        1 => 
+        array (
+          'label' => 'LBL_DATE_MODIFIED',
+          'enabled' => true,
+          'default' => true,
+          'name' => 'date_modified',
+        ),
+      ),
+    ),
+  ),
+  'orderBy' => 
+  array (
+    'field' => 'date_modified',
+    'direction' => 'desc',
+  ),
+);

@@ -2,92 +2,64 @@
 // WARNING: The contents of this file are auto-generated.
 ?>
 <?php
-// Merged from custom/Extension/modules/shan_Students/Ext/Vardefs/shan_students_shan_courses_shan_Students.php
+// Merged from custom/Extension/modules/shan_Students/Ext/Vardefs/sugarfield_reg_no_c.php
 
-// created: 2017-07-26 15:33:12
-$dictionary["shan_Students"]["fields"]["shan_students_shan_courses"] = array (
-  'name' => 'shan_students_shan_courses',
+ // created: 2017-07-27 11:02:47
+$dictionary['shan_Students']['fields']['reg_no_c']['labelValue']='REG NO';
+$dictionary['shan_Students']['fields']['reg_no_c']['full_text_search']=array (
+  'enabled' => '0',
+  'boost' => '1',
+  'searchable' => false,
+);
+$dictionary['shan_Students']['fields']['reg_no_c']['enforced']='';
+$dictionary['shan_Students']['fields']['reg_no_c']['dependency']='';
+
+ 
+?>
+<?php
+// Merged from custom/Extension/modules/shan_Students/Ext/Vardefs/sugarfield_phone_c.php
+
+ // created: 2017-07-27 11:03:04
+$dictionary['shan_Students']['fields']['phone_c']['labelValue']='PHONE';
+$dictionary['shan_Students']['fields']['phone_c']['full_text_search']=array (
+  'enabled' => '0',
+  'boost' => '1',
+  'searchable' => false,
+);
+$dictionary['shan_Students']['fields']['phone_c']['enforced']='';
+$dictionary['shan_Students']['fields']['phone_c']['dependency']='';
+
+ 
+?>
+<?php
+// Merged from custom/Extension/modules/shan_Students/Ext/Vardefs/shan_students_shan_teachers_1_shan_Students.php
+
+// created: 2017-07-27 12:09:44
+$dictionary["shan_Students"]["fields"]["shan_students_shan_teachers_1"] = array (
+  'name' => 'shan_students_shan_teachers_1',
   'type' => 'link',
-  'relationship' => 'shan_students_shan_courses',
+  'relationship' => 'shan_students_shan_teachers_1',
   'source' => 'non-db',
-  'module' => 'shan_Courses',
-  'bean_name' => 'shan_Courses',
-  'vname' => 'LBL_SHAN_STUDENTS_SHAN_COURSES_FROM_SHAN_COURSES_TITLE',
-  'id_name' => 'shan_students_shan_coursesshan_courses_idb',
-);
-$dictionary["shan_Students"]["fields"]["shan_students_shan_courses_name"] = array (
-  'name' => 'shan_students_shan_courses_name',
-  'type' => 'relate',
-  'source' => 'non-db',
-  'vname' => 'LBL_SHAN_STUDENTS_SHAN_COURSES_FROM_SHAN_COURSES_TITLE',
-  'save' => true,
-  'id_name' => 'shan_students_shan_coursesshan_courses_idb',
-  'link' => 'shan_students_shan_courses',
-  'table' => 'shan_courses',
-  'module' => 'shan_Courses',
-  'rname' => 'name',
-);
-$dictionary["shan_Students"]["fields"]["shan_students_shan_coursesshan_courses_idb"] = array (
-  'name' => 'shan_students_shan_coursesshan_courses_idb',
-  'type' => 'id',
-  'source' => 'non-db',
-  'vname' => 'LBL_SHAN_STUDENTS_SHAN_COURSES_FROM_SHAN_COURSES_TITLE_ID',
-  'id_name' => 'shan_students_shan_coursesshan_courses_idb',
-  'link' => 'shan_students_shan_courses',
-  'table' => 'shan_courses',
-  'module' => 'shan_Courses',
-  'rname' => 'id',
-  'reportable' => false,
-  'side' => 'left',
-  'massupdate' => false,
-  'duplicate_merge' => 'disabled',
-  'hideacl' => true,
+  'module' => 'shan_Teachers',
+  'bean_name' => 'shan_Teachers',
+  'vname' => 'LBL_SHAN_STUDENTS_SHAN_TEACHERS_1_FROM_SHAN_TEACHERS_TITLE',
+  'id_name' => 'shan_students_shan_teachers_1shan_teachers_idb',
 );
 
 ?>
 <?php
-// Merged from custom/Extension/modules/shan_Students/Ext/Vardefs/shan_teachers_shan_students_shan_Students.php
+// Merged from custom/Extension/modules/shan_Students/Ext/Vardefs/shan_students_shan_courses_1_shan_Students.php
 
-// created: 2017-07-26 15:33:12
-$dictionary["shan_Students"]["fields"]["shan_teachers_shan_students"] = array (
-  'name' => 'shan_teachers_shan_students',
+// created: 2017-07-27 12:52:36
+$dictionary["shan_Students"]["fields"]["shan_students_shan_courses_1"] = array (
+  'name' => 'shan_students_shan_courses_1',
   'type' => 'link',
-  'relationship' => 'shan_teachers_shan_students',
+  'relationship' => 'shan_students_shan_courses_1',
   'source' => 'non-db',
-  'module' => 'shan_Teachers',
-  'bean_name' => 'shan_Teachers',
-  'side' => 'right',
-  'vname' => 'LBL_SHAN_TEACHERS_SHAN_STUDENTS_FROM_SHAN_STUDENTS_TITLE',
-  'id_name' => 'shan_teachers_shan_studentsshan_teachers_ida',
-  'link-type' => 'one',
-);
-$dictionary["shan_Students"]["fields"]["shan_teachers_shan_students_name"] = array (
-  'name' => 'shan_teachers_shan_students_name',
-  'type' => 'relate',
-  'source' => 'non-db',
-  'vname' => 'LBL_SHAN_TEACHERS_SHAN_STUDENTS_FROM_SHAN_TEACHERS_TITLE',
-  'save' => true,
-  'id_name' => 'shan_teachers_shan_studentsshan_teachers_ida',
-  'link' => 'shan_teachers_shan_students',
-  'table' => 'shan_teachers',
-  'module' => 'shan_Teachers',
-  'rname' => 'name',
-);
-$dictionary["shan_Students"]["fields"]["shan_teachers_shan_studentsshan_teachers_ida"] = array (
-  'name' => 'shan_teachers_shan_studentsshan_teachers_ida',
-  'type' => 'id',
-  'source' => 'non-db',
-  'vname' => 'LBL_SHAN_TEACHERS_SHAN_STUDENTS_FROM_SHAN_STUDENTS_TITLE_ID',
-  'id_name' => 'shan_teachers_shan_studentsshan_teachers_ida',
-  'link' => 'shan_teachers_shan_students',
-  'table' => 'shan_teachers',
-  'module' => 'shan_Teachers',
-  'rname' => 'id',
-  'reportable' => false,
-  'side' => 'right',
-  'massupdate' => false,
-  'duplicate_merge' => 'disabled',
-  'hideacl' => true,
+  'module' => 'shan_Courses',
+  'bean_name' => 'shan_Courses',
+  'vname' => 'LBL_SHAN_STUDENTS_SHAN_COURSES_1_FROM_SHAN_COURSES_TITLE',
+  'id_name' => 'shan_students_shan_courses_1shan_courses_idb',
 );
 
 ?>

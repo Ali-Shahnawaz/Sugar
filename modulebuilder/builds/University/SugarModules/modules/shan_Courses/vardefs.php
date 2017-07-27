@@ -17,6 +17,34 @@ $dictionary['shan_Courses'] = array(
     'activity_enabled' => false,
     'duplicate_merge' => true,
     'fields' => array (
+  'course_name' => 
+  array (
+    'required' => false,
+    'name' => 'course_name',
+    'vname' => 'LBL_COURSE_NAME',
+    'type' => 'varchar',
+    'massupdate' => false,
+    'default' => '',
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'enabled',
+    'duplicate_merge_dom_value' => '1',
+    'audited' => false,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'full_text_search' => 
+    array (
+      'enabled' => '0',
+      'boost' => '1',
+      'searchable' => false,
+    ),
+    'calculated' => false,
+    'len' => '255',
+    'size' => '20',
+  ),
 ),
     'relationships' => array (
 ),

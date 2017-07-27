@@ -51,6 +51,7 @@ class shan_Courses_sugar extends Basic {
     public $following_link;
     public $my_favorite;
     public $favorite_link;
+    public $course_name;
     
     /**
      * @deprecated Use __construct() instead

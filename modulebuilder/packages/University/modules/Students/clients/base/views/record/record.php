@@ -164,6 +164,8 @@ array (
             'columns' => 2,
             'labelsOnTop' => true,
             'placeholders' => true,
+            'newTab' => false,
+            'panelDefault' => 'expanded',
             'fields' => 
             array (
               0 => 'assigned_user_name',
@@ -194,157 +196,12 @@ array (
               array (
                 'name' => 'shan_teachers_shan_students_1_name',
               ),
-              9 => 
-              array (
-              ),
-              10 => 
-              array (
-                'name' => 'shan_teachers_shan_students_1_name',
-              ),
-              11 => 
-              array (
-              ),
-              12 => 
-              array (
-                'name' => 'shan_students_shan_courses_name',
-              ),
-              13 => 
-              array (
-              ),
-              14 => 
-              array (
-                'name' => 'shan_teachers_shan_students_1_name',
-              ),
-              15 => 
-              array (
-              ),
-              16 => 
-              array (
-                'name' => 'shan_students_shan_courses_1_name',
-              ),
-              17 => 
-              array (
-              ),
-              18 => 
-              array (
-                'name' => 'shan_teachers_shan_students_1_name',
-              ),
-              19 => 
-              array (
-              ),
-              20 => 
-              array (
-                'name' => 'shan_students_shan_courses_1_name',
-              ),
-              21 => 
-              array (
-              ),
-              22 => 
-              array (
-                'name' => 'shan_teachers_shan_students_1_name',
-              ),
-              23 => 
-              array (
-              ),
-              24 => 
-              array (
-                'name' => 'shan_students_shan_courses_1_name',
-              ),
-              25 => 
-              array (
-              ),
-              26 => 
-              array (
-                'name' => 'shan_teachers_shan_students_1_name',
-              ),
-              27 => 
-              array (
-              ),
-              28 => 
-              array (
-                'name' => 'shan_students_shan_courses_1_name',
-              ),
-              29 => 
-              array (
-              ),
-              30 => 
-              array (
-                'name' => 'shan_students_shan_courses_1_name',
-              ),
-              31 => 
-              array (
-              ),
-              32 => 
-              array (
-                'name' => 'shan_students_shan_courses_1_name',
-              ),
             ),
           ),
-          2 => 
-          array (
-            'name' => 'panel_hidden',
-            'label' => 'LBL_SHOW_MORE',
-            'hide' => true,
-            'columns' => 2,
-            'labelsOnTop' => true,
-            'placeholders' => true,
-            'fields' => 
-            array (
-              0 => 
-              array (
-                'name' => 'description',
-                'span' => 12,
-              ),
-              1 => 
-              array (
-                'name' => 'date_modified_by',
-                'readonly' => true,
-                'inline' => true,
-                'type' => 'fieldset',
-                'label' => 'LBL_DATE_MODIFIED',
-                'fields' => 
-                array (
-                  0 => 
-                  array (
-                    'name' => 'date_modified',
-                  ),
-                  1 => 
-                  array (
-                    'type' => 'label',
-                    'default_value' => 'LBL_BY',
-                  ),
-                  2 => 
-                  array (
-                    'name' => 'modified_by_name',
-                  ),
-                ),
-              ),
-              2 => 
-              array (
-                'name' => 'date_entered_by',
-                'readonly' => true,
-                'inline' => true,
-                'type' => 'fieldset',
-                'label' => 'LBL_DATE_ENTERED',
-                'fields' => 
-                array (
-                  0 => 
-                  array (
-                    'name' => 'date_entered',
-                  ),
-                  1 => 
-                  array (
-                    'type' => 'label',
-                    'default_value' => 'LBL_BY',
-                  ),
-                  2 => 
-                  array (
-                    'name' => 'created_by_name',
-                  ),
-                ),
-              ),
-            ),
-          ),
+        ),
+        'templateMeta' => 
+        array (
+          'useTabs' => false,
         ),
       ),
     ),

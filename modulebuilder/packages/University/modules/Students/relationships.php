@@ -10,17 +10,4 @@
  * Copyright (C) SugarCRM Inc. All rights reserved.
  */
 $relationships = array (
-  'shan_students_shan_courses' => 
-  array (
-    'lhs_module' => 'shan_Students',
-    'rhs_module' => 'shan_Courses',
-    'relationship_type' => 'one-to-one',
-    'readonly' => false,
-    'deleted' => false,
-    'relationship_only' => false,
-    'for_activities' => false,
-    'is_custom' => false,
-    'from_studio' => false,
-    'relationship_name' => 'shan_students_shan_courses',
-  ),
 );

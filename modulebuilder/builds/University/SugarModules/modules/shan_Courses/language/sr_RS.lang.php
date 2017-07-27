@@ -52,4 +52,5 @@ $mod_strings = array (
   'LNK_IMPORT_VCARD' => 'Import Course vCard',
   'LBL_IMPORT' => 'Import Courses',
   'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new Course record by importing a vCard from your file system.',
+  'LBL_COURSE_NAME' => 'COURSE NAME',
 );
