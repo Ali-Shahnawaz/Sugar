@@ -31,9 +31,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Relation',
-  'published_date' => '2017-07-27 12:49:37',
+  'published_date' => '2017-07-27 12:57:13',
   'type' => 'module',
-  'version' => 1501159777,
+  'version' => 1501160233,
   'remove_tables' => 'prompt',
 );
 
