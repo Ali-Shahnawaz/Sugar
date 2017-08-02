@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_REL_B_REL_A_FROM_REL_B_TITLE'] = 'Bs';
+$mod_strings['LBL_REL_B_REL_A_FROM_REL_A_TITLE'] = 'As';
