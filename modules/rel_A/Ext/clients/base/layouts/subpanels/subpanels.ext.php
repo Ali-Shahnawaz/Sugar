@@ -2,6 +2,17 @@
 // WARNING: The contents of this file are auto-generated.
 
 
+
+$viewdefs['rel_A']['base']['layout']['subpanels']['components'][] = array(
+    'layout' => 'subpanel',
+    'label' => 'Example1',
+    'context' => array(
+        'link' => 'rel_a_rel_c',
+    )
+);
+
+
+
 // created: 2017-07-27 17:57:14
 $viewdefs['rel_A']['base']['layout']['subpanels']['components'][] = array (
   'layout' => 'subpanel',

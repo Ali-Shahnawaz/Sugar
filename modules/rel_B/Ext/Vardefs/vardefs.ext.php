@@ -39,3 +39,9 @@ $dictionary["rel_B"]["fields"]["rel_b_rel_a"] = array (
 
 
 ?>
+<?php
+// Merged from custom/Extension/modules/rel_B/Ext/Vardefs/Rem_required.php
+
+$dictionary['rel_B']['fields']['name']['required'] = false;
+
+?>

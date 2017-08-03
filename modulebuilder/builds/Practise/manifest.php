@@ -31,9 +31,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Practise',
-  'published_date' => '2017-07-28 13:24:29',
+  'published_date' => '2017-08-03 12:04:40',
   'type' => 'module',
-  'version' => 1501248269,
+  'version' => 1501761881,
   'remove_tables' => 'prompt',
 );
 
@@ -44,12 +44,19 @@ $installdefs = array (
   array (
     0 => 
     array (
+      'module' => 'Prac_Practise3',
+      'class' => 'Prac_Practise3',
+      'path' => 'modules/Prac_Practise3/Prac_Practise3.php',
+      'tab' => true,
+    ),
+    1 => 
+    array (
       'module' => 'Prac_two',
       'class' => 'Prac_two',
       'path' => 'modules/Prac_two/Prac_two.php',
       'tab' => true,
     ),
-    1 => 
+    2 => 
     array (
       'module' => 'Prac_one',
       'class' => 'Prac_one',
@@ -68,10 +75,15 @@ $installdefs = array (
   array (
     0 => 
     array (
+      'from' => '<basepath>/SugarModules/modules/Prac_Practise3',
+      'to' => 'modules/Prac_Practise3',
+    ),
+    1 => 
+    array (
       'from' => '<basepath>/SugarModules/modules/Prac_two',
       'to' => 'modules/Prac_two',
     ),
-    1 => 
+    2 => 
     array (
       'from' => '<basepath>/SugarModules/modules/Prac_one',
       'to' => 'modules/Prac_one',

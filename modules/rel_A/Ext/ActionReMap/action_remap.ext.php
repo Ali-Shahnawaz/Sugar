@@ -5,6 +5,6 @@
 // Merged from custom/Extension/modules/rel_A/Ext/ActionReMap/action_remap.php
 
 
-$action_remap['example1'] = 'example';
+$action_remap['example'] = 'example2';
 
 ?>

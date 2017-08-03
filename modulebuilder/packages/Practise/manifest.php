@@ -31,9 +31,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Practise',
-  'published_date' => '2017-07-28 13:24:26',
+  'published_date' => '2017-08-03 12:04:38',
   'type' => 'module',
-  'version' => 1501248268,
+  'version' => 1501761880,
   'remove_tables' => 'prompt',
 );
 

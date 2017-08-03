@@ -12,5 +12,7 @@
 
 $app_list_strings['moduleList']['Prac_one'] = 'ones';
 $app_list_strings['moduleList']['Prac_two'] = 'twos';
+$app_list_strings['moduleList']['Prac_Practise3'] = 'Practise3s';
 $app_list_strings['moduleListSingular']['Prac_one'] = 'one';
 $app_list_strings['moduleListSingular']['Prac_two'] = 'two';
+$app_list_strings['moduleListSingular']['Prac_Practise3'] = 'Practise';

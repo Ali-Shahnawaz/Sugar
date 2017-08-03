@@ -1,4 +1,4 @@
 <?php
 
-$action_remap['example1'] = 'example';
+$action_remap['example'] = 'example2';
 ?>
